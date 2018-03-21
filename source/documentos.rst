@@ -2,7 +2,12 @@
 CIENCIAS SOCIALES Y HUMANIDADES DIGITALES EN EL CCHS CAMBIADO Y RECAMBIADO Y REQUETECAMBIADO
 ============================================================================================
 
+
+
+EXEA
+
 IMAGO cambiado
+
 
 Desde la Unidad de SIG queremos favorecer la utilización de herramientas digitales y un marco de trabajo colaborativo en el seno del CCHS como elementos potenciadores de una investigación abierta y multidisciplinar. Queremos proponer este camino siendo conscientes de la situación actual de los proyectos que se desarrollan en este centro, de su gran potencialidad pero también de algunas limitaciones.
 
