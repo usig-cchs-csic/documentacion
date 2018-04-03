@@ -8,6 +8,7 @@ Documentación del portal HD del CCHS
   intro
   imago
   exea
+  comun
 
 
 

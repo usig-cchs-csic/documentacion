@@ -12,107 +12,28 @@ DESCRIPCIÓN
 -	Explotar datos: estructurar nuestros datos de forma que sean explotables y reutilizables, generar visualizaciones que mejoren su comprensión…
 -	Abrir datos: explorar la forma de generar un entorno de datos abiertos respetuoso con el trabajo de todos y que permita integrar libremente datos de diferentes orígenes.
 
+FUNCIONAMIENTO
+--------------
+
 **ROLES:**
 
 -	No autenticado.
--	Externo: De otras instituciones.
 -	CCHS: Personal CCHS.
 -	Moderador: Comisión.
 -	Administrador: USIG.
--	User 1: Creador.
 
 **ÁREAS:**
 
-1.	Repositorio de recursos: tres bloques: no geo, geo y destacados (los nodos) / dos bloques: recursos - destacados.
-2.	Proyectos-Exea: Páginas de proyectos. Sólo rol CCHS.
-3.	Exposiciones: Realizadas con los recursos disponibles sobre un tema concreto. Rol biblioteca¿?.
-4.	Herramientas para las HD: rol Externo y CCHS.
-5.	Actividades: talleres, debates, charlas… rol Externo y CCHS.
-6.	Tutoriales: de Exea (rol CCHS); de herramientas y aplicaciones (rol Externo y CCHS).
-7.	Comentarios: Rol anónimo. Cualquiera puede comentar los contenidos en los que los comentarios se habiliten.
+1.	Repositorio de recursos:dos bloques: búsqueda de recursos - recursos destacados.
+2.	Proyectos-Exea: Páginas de proyectos. Sólo puede editar el rol CCHS.
+3.	Herramientas para las HD: rol Externo y CCHS.
+4.	Actividades: talleres, debates, charlas… rol Externo y CCHS.
+5.	Tutoriales: de Exea (rol CCHS); de herramientas y aplicaciones (rol Externo y CCHS).
+6.	Comentarios sobre los diferentes contenidos: Rol anónimo. Cualquiera puede comentar los contenidos en los que los comentarios se habiliten.
 
-**FUNCIONAMIENTO:** Los propios usuarios generan contenido, un moderador puede aprobar su contenido. Hay varios casos:
+**FLUJO DE TRABAJO:** Los propios usuarios generan contenido, un moderador puede aprobar su contenido. Hay varios casos:
 
 -	Área 1: generada por nosotros mediante algoritmos de conexión a geonetwork y plantilla de presentación de datos
--	Área 2: Habría que establecer una estrategia conjunta con la biblioteca, que es la que tiene contenido apto para realizar exposiciones. Se requeriría la utilización de un software específico como Omeka (open source) y debatir la forma de integrarlo en Drupal, quizás mediante enlaces a las colecciones generadas
--	Área 3: requiere la preparación de plantillas y tutoriales para que los investigadores puedan trabajar en ella
+-	Área 2: Páginas generadas por la USIG o por los propios trabajadores de los proyectos
+- Área 3: Contenido generado por la USIG o personal del CCHS
 -	Áreas 4, 5 y 6: Estilo foro, cualquiera puede publicar contenido, directamente o mediante moderación
-
- 
-PUNTOS COMUNES
---------------
-Ambos proyectos comparten una serie de requisitos, tareas y una misma filosofía de trabajo:
-
-REPARTO DE TAREAS
-*****************
-
-USIG
-++++
--	Infraestructura tecnológica de ambas cosas.
--	Imago Orbis completo: gestión, mantenimiento y contenido.
--	Catálogo de Exea.
-- Administración de Exea: generación de la página y de formularios necesarios.
--	Tutoriales de nuestras herramientas.
--	Talleres de Información Geográfica.
--	Carga de contenido en Exea relacionado con nuestros proyectos
-
-
-Investigadores (comisión)
-+++++++++++++++++++++++++
--	Dinamización de las Humanidades Digitales y Ciencias Sociales.
--	Carga de contenido en Exea de: proyectos, herramientas, actividades.
--	Metadatado (Dublin Core) de los recursos generados.
--	Fomentar un marco de trabajo de datos abiertos.
-
-Biblioteca
-+++++++++++
--	Gestión en abierto de sus recursos.
--	Creación de exposiciones.
--	Enlace a las exposiciones desde Exea.
-
-
-CREACIÓN DE UNA NUEVA HERRAMIENTA DIGITAL
-*****************************************
-El desarrollo de nuevas herramientas o servicios útiles para las HD irá sumando partes a la estructura general de Exea / Imago Orbis, siguiendo un esquema similar al del ejemplo de los Corpora Textuales que se muestra en el diagrama:
-
-.. image:: ../images/exea.png
-
-ARQUITECTURA INFORMÁTICA USIG NECESARIA
-****************************************
-**OPCIÓN 1: servidores estáticos**
-
-.. image:: ../images/servidoresEstaticos.png
-
-
-**OPCIÓN 2: hosting escalable**
-
-.. image:: ../images/hostingEscalable.png
-
-
-DESARROLLO COLABORATIVO
-***********************
-El desarrollo de software necesario para la generación de ambas estructuras se realizará en abierto, a través de la plataforma **GITHUB**, espacio de trabajo común (repositorio). GitHub es un servidor Git de uso público y gratuito, en el que se desarrollan de forma colaborativa proyectos de software libre.
-Planteamos una adaptación a este entorno de trabajo en dos sentidos:
--	Creación y mantenimiento de los desarrollos y configuraciones personalizadas de Geonetwork (y potencialmente Exea, si es que se realiza algún desarrollo propio)
--	Creación de repositorios para los desarrollos concretos de herramientas que puedan formar parte de Exea
-
-CUESTIONES
-***********
-DRUPAL es una plataforma segura. Nos puede servir para alojar nuestros php de carga de datos?
-
-Imago Orbis es más pesado en principio pero más fácil de dimensionar. Exea necesitaría una arquitectura escalable (a lo mejor es suficiente instalar un ubuntu con HDD en LVM/ZFS)
-
-Podemos contratar al diseñador de Antonio Lafuente. Otra opción sería la Unidad de Actividades Científicas, pero seguro que no mola tanto el resultado.
-Hay que tener un servidor de desarrollo y otro de producción con DRUPAL
-
-Deberíamos pensar también en abrirlo a más gente, para permitir una comunidad más activa y para que personal externo de proyectos pueda introducir datos, si al final hacemos interfaces de carga
-
-El área de proyectos-exea siempre va a sernos útil, si el resto del proyecto languidece, siempre podremos usarla para hacer nuestras paginitas
-
-Comisión de investigadores: Incluir algún becario y técnico. Que debatan sobre la estructura de las áreas (excepto la primera) y sobre la dinamización de las HD en el centro. Que decida quién va a moderar el contenido. Nosotros nos comprometemos a hacer nuestra parte: mantener la infraestructura y generar contenido en nuestra área de trabajo: talleres, tutoriales, etc.
-
-Portátil USIG: si vamos a hacer tutoriales y cosas así, hay que comprar un pepino y ponerle Ubuntu
-
-¿Sería posible realizar exposiciones sobre el material digitalizado de la TNT?
-
-En un año Drupal dejará de soportar PHP5 hay que pasarse al 7+
