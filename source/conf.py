@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Geonetwork'
+project = 'Portal CCSS HD'
 copyright = '2018, N'
 author = 'N'
 

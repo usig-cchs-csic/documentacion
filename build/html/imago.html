@@ -1,0 +1,447 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>IMAGO ORBIS &mdash; documentación de Geonetwork - 1</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Índice"
+              href="genindex.html"/>
+        <link rel="search" title="Búsqueda" href="search.html"/>
+    <link rel="top" title="documentación de Geonetwork - 1" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Geonetwork
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">IMAGO ORBIS</a><ul>
+<li><a class="reference internal" href="#estructura">ESTRUCTURA</a><ul>
+<li><a class="reference internal" href="#contenido-de-la-pagina-principal">CONTENIDO DE LA PÁGINA PRINCIPAL</a></li>
+<li><a class="reference internal" href="#pagina-de-busquedas-complejas">PÁGINA DE BÚSQUEDAS COMPLEJAS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#elementos">ELEMENTOS</a><ul>
+<li><a class="reference internal" href="#funcionalidad-en-el-mapa">FUNCIONALIDAD EN EL MAPA</a></li>
+<li><a class="reference internal" href="#metadatos">METADATOS</a></li>
+<li><a class="reference internal" href="#feedback">FEEDBACK</a></li>
+<li><a class="reference internal" href="#servicio-de-descargas-atom">SERVICIO DE DESCARGAS (ATOM)</a></li>
+<li><a class="reference internal" href="#catalogos">CATÁLOGOS</a></li>
+<li><a class="reference internal" href="#harvesting">HARVESTING</a></li>
+<li><a class="reference internal" href="#gestion-de-usuarios">GESTIÓN DE USUARIOS</a></li>
+<li><a class="reference internal" href="#open-data-linked-data-dcat">OPEN DATA, LINKED DATA: DCAT</a></li>
+<li><a class="reference internal" href="#tesauros">TESAUROS</a></li>
+<li><a class="reference internal" href="#otros">OTROS</a></li>
+<li><a class="reference internal" href="#arquitectura">ARQUITECTURA</a></li>
+<li><a class="reference internal" href="#generacion-de-informes">GENERACIÓN DE INFORMES</a></li>
+<li><a class="reference internal" href="#documentacion">DOCUMENTACIÓN</a></li>
+<li><a class="reference internal" href="#referencias">REFERENCIAS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Geonetwork</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>IMAGO ORBIS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/imago.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="imago-orbis">
+<h1>IMAGO ORBIS<a class="headerlink" href="#imago-orbis" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>El punto de entrada a la IDE de Humanidades y Ciencias Sociales (Imago Orbis) es el catálogo de metadatos de Geonetwork,  a partir de él se accede a los tres servicios web considerados como básicos, servicio de visualización, de catálogo y de nomenclátor. ¿Servicio de Descargas?</p>
+<p>Se aprovecha la funcionalidad y el diseño de Geonetwork que cataloga e indexa los metadatos de recursos geográficos como núcleo de Imago.</p>
+<div class="section" id="estructura">
+<h2>ESTRUCTURA<a class="headerlink" href="#estructura" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="contenido-de-la-pagina-principal">
+<h3>CONTENIDO DE LA PÁGINA PRINCIPAL<a class="headerlink" href="#contenido-de-la-pagina-principal" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul>
+<li><p class="first">Un espacio para la búsqueda (sencilla)</p>
+</li>
+<li><p class="first">Búsquedas preconfiguradas para el acceso directo (INSPIRE, servicios de visualización).</p>
+<blockquote>
+<div><p>Búsquedas por temas / categorías.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Un par de pestañas de contenidos destacados (el que tiene más visitas y los últimos recursos publicados)</p>
+</li>
+<li><p class="first">Acceso a búsquedas complejas de metadatos</p>
+</li>
+<li><p class="first">Acceso directo al visualizador de Imago Orbis.</p>
+</li>
+<li><p class="first">Acceso a registrarse.</p>
+</li>
+<li><p class="first">Idioma</p>
+</li>
+<li><p class="first">Redes Sociales</p>
+</li>
+</ul>
+</div>
+<div class="section" id="pagina-de-busquedas-complejas">
+<h3>PÁGINA DE BÚSQUEDAS COMPLEJAS<a class="headerlink" href="#pagina-de-busquedas-complejas" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Configurar las búsquedas federadas</li>
+<li>Búsquedas sobre los metadatos</li>
+<li>Tipo de recurso</li>
+<li>Acciones disponibles</li>
+<li>Tipo de recurso</li>
+<li>Temas</li>
+<li>Temas INSPIRE</li>
+<li>Palabras clave</li>
+<li>Contacto para el recurso</li>
+<li>Años</li>
+<li>Formatos…..</li>
+<li>Tipos de representación</li>
+<li>Frecuencia de representación</li>
+<li>Frecuencia de actualización</li>
+<li>Estado</li>
+<li>Tipo de servicio</li>
+<li>Escala</li>
+<li>Resolución</li>
+</ul>
+</div>
+</div>
+<div class="section" id="elementos">
+<h2>ELEMENTOS<a class="headerlink" href="#elementos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="funcionalidad-en-el-mapa">
+<h3>FUNCIONALIDAD EN EL MAPA<a class="headerlink" href="#funcionalidad-en-el-mapa" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El mapa interactivo está basado en Open Layers 3 y proporciona acceso a servicios OGC y otros estándares KML y OWS. Una vez conectados al catálogo  los usuarios pueden fácilmente encontrar nuevos servicios,capas para combinarlos.</p>
+<ul class="simple">
+<li>Conexión con <strong>Geoserver</strong>.</li>
+</ul>
+<p><a class="reference external" href="http://apps.titellus.net/geoserver/ows">http://apps.titellus.net/geoserver/ows</a>?SERVICE=WMS&amp;</p>
+<ul class="simple">
+<li>Cargar capas de diferentes dominios.</li>
+</ul>
+<p><a class="reference external" href="https://www.geocat.net/es/mixed-content-and-cross-domain-errors-in-browser-sdi/">https://www.geocat.net/es/mixed-content-and-cross-domain-errors-in-browser-sdi/</a>
+<a class="reference external" href="https://stackoverflow.com/questions/22363192/cors-tomcat-geoserver#25025579">https://stackoverflow.com/questions/22363192/cors-tomcat-geoserver#25025579</a></p>
+<ul class="simple">
+<li>Cargar más tipos de capas (GeoJSON, GML)</li>
+<li>Llevarte el mapa a tu página con su contexto.</li>
+<li>Identificar features de cualquier tipo de capa. (GetFeatureInfo para IDEARQ)</li>
+</ul>
+</div>
+<div class="section" id="metadatos">
+<h3>METADATOS<a class="headerlink" href="#metadatos" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>ISO 19115/ISO 19119, según la codificación XML definida en ISO/TS19139</li>
+<li>Perfil INSPIRE</li>
+<li>Dublin Core</li>
+<li>Extensible para soportar otros perfiles</li>
+<li>Tres formas de integrar los metadatos:</li>
+</ul>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Edición de metadatos basada en plantillas.</li>
+<li>Importar a partir de un XML válido local o una URL</li>
+<li>Pegar directamente el XML.</li>
+</ol>
+</div></blockquote>
+<ul class="simple">
+<li>Integrar en un flujo de trabajo que obligue a su validación e informe de su estado.</li>
+<li>Elaborar un manual detallado sobre el funcionamiento de la edición basada en plantillas (en <a class="reference external" href="http://www.sphinx-doc.org/">Sphinx</a>) .</li>
+</ul>
+</div>
+<div class="section" id="feedback">
+<h3>FEEDBACK<a class="headerlink" href="#feedback" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Puntuación de metadatos.</li>
+<li>Posibilidad de recibir correos con comentarios</li>
+</ul>
+</div>
+<div class="section" id="servicio-de-descargas-atom">
+<h3>SERVICIO DE DESCARGAS (ATOM)<a class="headerlink" href="#servicio-de-descargas-atom" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Integrar un servicio de descargas conforme con INSPIRE</p>
+</div>
+<div class="section" id="catalogos">
+<h3>CATÁLOGOS<a class="headerlink" href="#catalogos" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Catálogos virtuales,  por proyecto / categoría,  que añaden la capacidad de aplicar criterios extra a las peticiones al CSW.</li>
+<li>Definir un punto de entrada de INSPIRE CSW para devolver solo los metadatos relacionados con INSPIRE almacenados en el catálogo.</li>
+<li>Defina los puntos de entrada de CSW para devolver solo metadatos relacionados con temas específicos.</li>
+</ul>
+</div>
+<div class="section" id="harvesting">
+<h3>HARVESTING<a class="headerlink" href="#harvesting" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Geonetwork permite trabajar con datos descentralizados procedentes de diversos repositorios o harvesting. La información de los diferentes nodos o repositorios descentralizados se sincroniza cada cierto tiempo contra la base de datos de Geonetwok, actualizándose así los cambios sobre en nodo central del sistema.</li>
+<li>La prueba de Harvesting funciona, pero en principio parece razonable utilizar las búsquedas federadas mientras se trabaje con nodos centralizados.</li>
+<li>Los usuarios no pueden modificar los registros recolectados pero pueden duplicarlos.</li>
+</ul>
+</div>
+<div class="section" id="gestion-de-usuarios">
+<h3>GESTIÓN DE USUARIOS<a class="headerlink" href="#gestion-de-usuarios" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>GeoNetwork trabaja con cuatro tipos de usuarios:
+-       Usuario registrado
+-       Editor
+-       Reviewer
+-       Usuario administrador
+-       Administrador</p>
+<p>Los roles se pueden definir por grupo
+- Gestión de usuarios y grupos almacenados en la BD
+- Seguridad y control con LDAP (LDAP existente? ¿LDAP propio?)
+- ¿Autorregistro?</p>
+</div>
+<div class="section" id="open-data-linked-data-dcat">
+<h3>OPEN DATA, LINKED DATA: DCAT<a class="headerlink" href="#open-data-linked-data-dcat" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Actualmente GeoNetwork posee algunos puntos de entrada para opendata en formato rdf, sin embargo, estas interfaces no están conectadas aún con la interfaz gráfica.
+<a class="reference external" href="http://161.111.72.7:8080/geonetwork/srv/sp/portal.opensearch">http://161.111.72.7:8080/geonetwork/srv/sp/portal.opensearch</a>
+<a class="reference external" href="http://161.111.72.7:8080/geonetwork/srv/sp/rdf.search?any">http://161.111.72.7:8080/geonetwork/srv/sp/rdf.search?any</a>
+<a class="reference external" href="http://161.111.72.7:8080/geonetwork/srv/eng/portal.sitemap?format=rdf">http://161.111.72.7:8080/geonetwork/srv/eng/portal.sitemap?format=rdf</a></p>
+<p>Haciendo esta petición se obtiene el listado de todos los recursos existentes en el catálogo.
+El acceso con SPARQL se hace en principio a través de virtuoso.</p>
+<p><a class="reference external" href="https://www.geocat.net/es/query-geonetwork-with-sparql/">https://www.geocat.net/es/query-geonetwork-with-sparql/</a>
+<a class="reference external" href="https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/Alignment_of_INSPIRE_metadata_with_DCAT-AP">https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/Alignment_of_INSPIRE_metadata_with_DCAT-AP</a></p>
+</div>
+<div class="section" id="tesauros">
+<h3>TESAUROS<a class="headerlink" href="#tesauros" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Incorporados en la personalización.</li>
+</ul>
+<blockquote>
+<div>GEMET / EUROVOC / UNESCO /INSPIRE/ (otros…)</div></blockquote>
+<ul class="simple">
+<li>Posibilidad de incorporar parte de los Tesauros de GETTY.</li>
+</ul>
+</div>
+<div class="section" id="otros">
+<h3>OTROS<a class="headerlink" href="#otros" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Posibilidad de enlazar recursos</li>
+<li>Crear Vocabularios propios</li>
+<li>Personalización del entorno. Diseño</li>
+<li>Usabilidad – ISO /IEC 916-1 (mapa web)</li>
+<li>Accesibilidad mínimo AA (accesibilidad normal o media)</li>
+<li>Condiciones de uso de los recursos.</li>
+<li>Rendimiento.</li>
+<li>INSPIRE exige un tiempo de respuesta entre 3-5 segundos</li>
+</ul>
+</div>
+<div class="section" id="arquitectura">
+<h3>ARQUITECTURA<a class="headerlink" href="#arquitectura" title="Enlazar permanentemente con este título">¶</a></h3>
+<p><strong>Sistema operativo:</strong> Ubuntu.</p>
+<p><strong>Base de datos:</strong> postgreSQL.</p>
+<p><strong>Contenedor de aplicaciones y servidor web:</strong> se despliega sobre un contenedor de aplicaciones java, tomcatT funcionando sobre el framework spring.</p>
+<p><strong>Apache Lucene</strong>: La funcionalidad de GeoNetwork , es la de buscar en información tipo texto keywords, titles… se trata de textos que están almacenados en la base de datos y que deben poder ser buscados desde GeoNetwork. Para realizar esto hace uso de Apache Lucene. Apache Lucene es un buscador de texto. Podremos configurar Lucene con los campos en los que queramos que nos realice la búsqueda. Para ello deberemos modificar los campos en el archivo «<em>config-lucene.xml</em>».</p>
+<p>Z39.50  es un protocolo cliente-servidor dirigido a facilitar la búsqueda y recuperación de información en distintos sistemas a través de una misma interfaz. Su aplicación en el mundo de las bibliotecas y de los centros de documentación permite la consulta de recursos distribuidos en distintas bases de datos, desde un mismo punto de acceso.”  GeoNetwork usando el protocolo Z39.50 puede acceder a catálogos remotos y hace que sus datos estén disponibles para otros servicios de catálogo”.</p>
+</div>
+<div class="section" id="generacion-de-informes">
+<h3>GENERACIÓN DE INFORMES<a class="headerlink" href="#generacion-de-informes" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Los administradores pueden generar diversos informes  para evaluar la utilización de la plataforma:
+-       Metadatos Actualizados
+-       Metadatos internos
+-       Cargas de fichero de metadatos
+-       Descargas de ficheros de metadatos
+-       Acceso de usuarios</p>
+</div>
+<div class="section" id="documentacion">
+<h3>DOCUMENTACIÓN<a class="headerlink" href="#documentacion" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Elaborar la documentación de Geonetwork en <a class="reference external" href="http://www.sphinx-doc.org/">Sphinx</a>.</p>
+</div>
+<div class="section" id="referencias">
+<h3>REFERENCIAS<a class="headerlink" href="#referencias" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://geonetwork-opensource.org/manuals/2.10.4/eng/users/admin/authentication/index.html#ldap">https://geonetwork-opensource.org/manuals/2.10.4/eng/users/admin/authentication/index.html#ldap</a></li>
+<li><a class="reference external" href="https://github.com/geonetwork/core-geonetwork/pull/1900#discussion_r117707971">https://github.com/geonetwork/core-geonetwork/pull/1900#discussion_r117707971</a></li>
+<li><a class="reference external" href="http://www.sphinx-doc.org/en/master/">http://www.sphinx-doc.org/en/master/</a></li>
+<li><a class="reference external" href="https://github.com/geonetwork/doc/tree/6f072c42083837d88d6950dae5f629838b6f720c/en/tutorials">https://github.com/geonetwork/doc/tree/6f072c42083837d88d6950dae5f629838b6f720c/en/tutorials</a></li>
+<li><a class="reference external" href="https://geonetwork-opensource.org/manuals/3.4.x/es/administrator-guide/configuring-the-catalog/system-configuration.html">https://geonetwork-opensource.org/manuals/3.4.x/es/administrator-guide/configuring-the-catalog/system-configuration.html</a></li>
+<li><a class="reference external" href="https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/Alignment_of_INSPIRE_metadata_with_DCAT-AP">https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/Alignment_of_INSPIRE_metadata_with_DCAT-AP</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, N.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
