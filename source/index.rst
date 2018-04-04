@@ -1,6 +1,6 @@
 
 Documentación del portal HD del CCHS
-===================================
+====================================
 
 .. toctree::
    :maxdepth: 2
